@@ -1,0 +1,12 @@
+mkdir -> to make directory/folder
+cd -> to change directory
+ls -> to list files/folder within the directory
+touch -> to create files
+git status -> to cheek's git tracking
+git init -> to start observing
+git add -> to add (./-a)
+git commit ->to commit on new files
+git commit -m "meaningful msg" -> with -m"___" we can add msg with commit
+git log -> to check log of the files
+git checkout ID -> to review the previous commit and momdification on the files
+git checkout main -> switch to current version
