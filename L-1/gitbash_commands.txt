@@ -1,20 +1,24 @@
-mkdir -> to make directory/folder
-cd -> to change directory
-ls -> to list files/folder within the directory
-touch -> to create files
-git status -> to cheek's git tracking
-git init -> to start observing
-git add -> to add (./-a)
-git commit ->to commit on new files
-git commit -m "meaningful msg" -> with -m"___" we can add msg with commit
-git log -> to check log of the files
-git checkout ID -> to review the previous commit and momdification on the files
-git checkout main -> switch to current version
-git branch -> to get list of sub branch or any features files.
-git branch [NAME] -> to create a new branch
-git branch -d -> to delete the branch (from main head)
-git checkout -b [File NAME] -> this command will create new branch and switch to it.
+mkdir                                    ---->            to make directory/folder
+rm -rf [folder NAME]                     ---->            to remove directory/folder
+cd                                       ---->            to change directory
+cd ..                                    ---->            to go lvl back
+ls                                       ---->            to list files/folder within the directory
+&&                                       ---->            to write multiple commands
+touch                                    ---->            to create files
+git status                               ---->            to cheek's git tracking
+git init                                 ---->            to start observing
+git add (./-a)                           ---->            to add to tracking 
+git commit                               ---->            to commit on new files
+git commit -m "meaningful msg"           ---->            with -m"___" we can add msg with commit
+git log                                  ---->            to check log of the files
+git log --oneline                        ---->            to check oneline log
+git checkout ID                          ---->            to review the previous commit and momdification on the files
+git checkout main                        ---->            switch to current version
+git branch                               ---->            to get list of sub branch or any features files.
+git branch [NAME]                        ---->            to create a new branch
+git branch -d                            ---->            to delete the branch (from main head)
+git checkout -b [File NAME]              ---->            this command will create new branch and switch to it.
 
-"Hi, this is the merge features testing and I'll be merge in to main stream 
-after this command is executed (git branch merge )" 
+"Hi, this is the merge features testing and I'll be merge in to main head 
+after this command is executed (git merge [File_NAME])" 
 
