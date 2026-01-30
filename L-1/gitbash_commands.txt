@@ -10,3 +10,11 @@ git commit -m "meaningful msg" -> with -m"___" we can add msg with commit
 git log -> to check log of the files
 git checkout ID -> to review the previous commit and momdification on the files
 git checkout main -> switch to current version
+git branch -> to get list of sub branch or any features files.
+git branch [NAME] -> to create a new branch
+git branch -d -> to delete the branch (from main head)
+git checkout -b [File NAME] -> this command will create new branch and switch to it.
+
+"Hi, this is the merge features testing and I'll be merge in to main stream 
+after this command is executed (git branch merge )" 
+
