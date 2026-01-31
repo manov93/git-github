@@ -18,6 +18,7 @@ git branch                               ---->            to get list of sub bra
 git branch [NAME]                        ---->            to create a new branch
 git branch -d                            ---->            to delete the branch (from main head)
 git checkout -b [File NAME]              ---->            this command will create new branch and switch to it.
+git push origin main                     ---->            to push the code to the cloud(Github)
 
 "Hi, this is the merge features testing and I'll be merge in to main head 
 after this command is executed (git merge [File_NAME])" 
